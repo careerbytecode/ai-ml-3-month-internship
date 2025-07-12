@@ -154,4 +154,4 @@ Part of: **CareerByteCode 3-Month AI/ML Internship Program**
 
 ---
 
-Happy Coding! Let's build 30+ projects and become job-ready 🚀
+Happy Coding! Let's build 96+ projects and become job-ready 🚀

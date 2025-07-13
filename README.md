@@ -24,7 +24,6 @@ sample/
 │   ├── model.py         # ML model training and prediction
 │   └── utils.py         # Helper functions
 ├── requirements.txt     # Python dependencies
-├── .gitignore           # Git exclusions
 ├── sample_dataset.csv   # Demo dataset
 ├── sample_script.py     # Starter script
 ├── sample_config.json   # Sample config

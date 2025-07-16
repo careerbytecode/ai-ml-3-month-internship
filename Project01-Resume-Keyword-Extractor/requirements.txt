@@ -1,0 +1,12 @@
+pandas
+python-docx
+python-pptx
+pytesseract
+Pillow
+PyMuPDF
+docx2txt
+textract
+PyPDF2
+six>=1.16.0
+streamlit
+python-dotenv

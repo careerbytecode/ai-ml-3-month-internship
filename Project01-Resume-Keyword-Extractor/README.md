@@ -43,8 +43,9 @@ An interactive Streamlit interface helps recruiters preview and shortlist top ca
  ``` </pre>
 
 ## 📈 Results & Screenshots
-[🎥 Demo Video 1](Project01-Resume-Keyword-Extractor/outputs/Demo Video/Resume Keyword Extractor - Google Chrome 2025-07-17 13-24-58.mp4)
-[🎥 Demo Video 2](outputs/Demo Video/video2.mp4)
+[🎥 Demo Video 1](outputs/Demo%20Video/Resume%20Keyword%20Extractor%20-%20Google%20Chrome%202025-07-17%2013-24-58.mp4)  
+[🎥 Demo Video 2](outputs/Demo%20Video/main.py%20-%20resume-keyword-extractor%20-%20Visual%20Studio%20Code%202025-07-17%2013-10-28%20(online-video-cutter.com).mp4)
+
 
 
 ## 🗒️ Learnings

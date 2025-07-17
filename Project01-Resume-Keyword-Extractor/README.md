@@ -1,42 +1,63 @@
 # 🚀 Project Title: <PROJECT_TITLE>
 
 ## 📌 Problem Statement
-Briefly describe the problem you're trying to solve with this project. Clearly define the use case and the need for this AI/ML solution.
+Recruiters face challenges in manually screening large volumes of resumes.
+Identifying relevant technical skills from unstructured PDF resumes is time-consuming.
+There is a need for an automated tool to extract, filter, and rank resumes efficiently.
+This project fetches resumes from Gmail, matches them with required skills, and ranks them.
+An interactive Streamlit interface helps recruiters preview and shortlist top candidates.
 
 ## 🎯 Objectives
-- Clearly outline the goals of this project
-- Mention expected outcomes or metrics if applicable
+-Automate Resume Collection: Fetch resumes directly from Gmail inbox using email credentials.
+
+-Skill Extraction: Extract text from PDF resumes and identify relevant technical skills.
+
+-Candidate Ranking: Score and rank candidates based on the number of matched keywords.
+
+-Interactive UI: Provide a Streamlit-based interface to view matches, scores, and resume previews.
+
+-Enable Shortlisting: Help recruiters efficiently identify and preview top candidate resumes for further action.
 
 ## 🧠 Tech Stack / Tools Used
-- Python 🐍
-- Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, etc.
-- Jupyter Notebook / VS Code
-- (Optional) Streamlit / Flask for app demo
-- (Optional) LangChain / OpenAI for AI Agents
+-Python 🐍
+-Libraries: pandas, pdfplumber, dotenv, streamlit, imaplib, email, os, re
+-IDE/Editor: VS Code 💻
+-File Formats: .pdf, .csv, .env
+-(Optional) Streamlit for app demo 🌐
 
 ## 📂 Project Structure
-```
-📁 data/
-    📁 raw/
-    📁 processed/
-📁 notebooks/
-📁 outputs/
-    📁 graphs/
-    📄 model.pkl
-    📄 results.csv
-📁 src/
-    📄 data_loader.py
-    📄 model.py
-    📄 utils.py
-📁 app/ (optional)
-📄 README.md
-```
+📁 resume-keyword-extractor/
+│
+├── 📁 data/
+│   ├── 📁 raw/                # Raw dataset for database model
+│   └── 📁 processed/          # Raw resumes (PDFs) downloaded from email Cleaned or parsed text versions
+│
+├── 📁 outputs/
+│   └── 📄 ranked_candidates.csv         # Final ranked candidate results
+│
+├── 📁 src/                         # Source code files
+│   ├── 📄 extract_keywords.py      # The extracted matching keywords from resume
+│   ├── 📄 main.py                  # Scoring and screening logic 
+|   └── 📄 resume_parser.py         # Extracts text from PDFs, cleans and tokenizes
+|   ├── 📄 skills_keywords.py       # Keywords to find the matching resumes
+|   ├── 📄 fetch_resumes_email.py   # Extracts pdfs from mail
+|    
+├── 📁 app/ (optional)         # Streamlit app
+│
+├── 📄 README.md               # Project overview and instructions
+├── 📄 sample.env.json         # Sample config for contributors
+├── 📄 requirements.txt        # Python dependencies
+
 
 ## 📈 Results & Screenshots
-_You can include graphs, model metrics, UI screenshots, or console outputs here._
+
 
 ## 🗒️ Learnings
-_What did you learn while working on this project? Highlight techniques, challenges, or tricks you picked up._
+-Learned how to connect and authenticate Gmail using the imaplib and email libraries securely via .env and st.secrets.
+-Gained hands-on experience in parsing PDF resumes using PyMuPDF to extract clean and accurate text content.
+-Implemented keyword-based matching logic to filter resumes based on required tech skills.
+-Explored Streamlit for creating an interactive UI with preview buttons, file download options, and user-friendly layout.
+-Understood the importance of handling secure credentials, git hygiene with .gitignore, and separating config from logic.
 
 ## 📦 How to Run
 ```bash
@@ -55,13 +76,6 @@ pip install -r requirements.txt
 
 # Step 5: Run your script or notebook
 python src/model.py
-```
-
-## 📬 Submission Checklist
-- [x] Code is committed & pushed to GitHub
-- [x] `README.md` is updated
-- [x] Output screenshots/graphs are in the `outputs/` folder
-- [x] Notebook contains explanations or comments
 
 ---
 🧑‍💻 _Project done as part of CareerByteCode's AI/ML Internship Program_ 🔥

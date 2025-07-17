@@ -8,56 +8,48 @@ This project fetches resumes from Gmail, matches them with required skills, and 
 An interactive Streamlit interface helps recruiters preview and shortlist top candidates.
 
 ## 🎯 Objectives
--Automate Resume Collection: Fetch resumes directly from Gmail inbox using email credentials.
+- **Automate Resume Collection**: Fetch resumes directly from Gmail inbox using email credentials.  
+- **Skill Extraction**: Extract text from PDF resumes and identify relevant technical skills.  
+- **Candidate Ranking**: Score and rank candidates based on the number of matched keywords.  
+- **Interactive UI**: Provide a Streamlit-based interface to view matches, scores, and resume previews.  
+- **Enable Shortlisting**: Help recruiters efficiently identify and preview top candidate resumes for further action.
 
--Skill Extraction: Extract text from PDF resumes and identify relevant technical skills.
-
--Candidate Ranking: Score and rank candidates based on the number of matched keywords.
-
--Interactive UI: Provide a Streamlit-based interface to view matches, scores, and resume previews.
-
--Enable Shortlisting: Help recruiters efficiently identify and preview top candidate resumes for further action.
 
 ## 🧠 Tech Stack / Tools Used
--Python 🐍
--Libraries: pandas, pdfplumber, dotenv, streamlit, imaplib, email, os, re
--IDE/Editor: VS Code 💻
--File Formats: .pdf, .csv, .env
--(Optional) Streamlit for app demo 🌐
+- **Language**: Python 🐍  
+- **Libraries**: `pandas`, `pdfplumber`, `dotenv`, `streamlit`, `imaplib`, `email`, `os`, `re`  
+- **IDE/Editor**: VS Code 💻  
+- **File Formats**: `.pdf`, `.csv`, `.env`  
+- **Optional**: Streamlit for app demo 🌐
 
 ## 📂 Project Structure
 📁 resume-keyword-extractor/
-│
 ├── 📁 data/
-│   ├── 📁 raw/                # Raw dataset for database model
-│   └── 📁 processed/          # Raw resumes (PDFs) downloaded from email Cleaned or parsed text versions
-│
+│ ├── 📁 raw/ # Raw dataset for database model
+│ └── 📁 processed/ # Resumes cleaned or parsed from PDFs
 ├── 📁 outputs/
-│   └── 📄 ranked_candidates.csv         # Final ranked candidate results
-│
-├── 📁 src/                         # Source code files
-│   ├── 📄 extract_keywords.py      # The extracted matching keywords from resume
-│   ├── 📄 main.py                  # Scoring and screening logic 
-|   └── 📄 resume_parser.py         # Extracts text from PDFs, cleans and tokenizes
-|   ├── 📄 skills_keywords.py       # Keywords to find the matching resumes
-|   ├── 📄 fetch_resumes_email.py   # Extracts pdfs from mail
-|    
-├── 📁 app/ (optional)         # Streamlit app
-│
-├── 📄 README.md               # Project overview and instructions
-├── 📄 sample.env.json         # Sample config for contributors
-├── 📄 requirements.txt        # Python dependencies
+│ └── 📄 ranked_candidates.csv # Final ranked candidate results
+├── 📁 src/ # Source code files
+│ ├── 📄 extract_keywords.py # Extracts matching keywords from resume
+│ ├── 📄 main.py # Scoring and screening logic
+│ ├── 📄 resume_parser.py # Extracts text, cleans and tokenizes
+│ ├── 📄 skills_keywords.py # Keywords used for matching
+│ └── 📄 fetch_resumes_email.py # Extracts PDFs from Gmail
+├── 📁 app/ (optional) # Streamlit app (optional)
+├── 📄 README.md # Project overview and instructions
+├── 📄 sample.env.json # Sample config for contributors
+└── 📄 requirements.txt # Python dependencies
 
 
 ## 📈 Results & Screenshots
 
 
 ## 🗒️ Learnings
--Learned how to connect and authenticate Gmail using the imaplib and email libraries securely via .env and st.secrets.
--Gained hands-on experience in parsing PDF resumes using PyMuPDF to extract clean and accurate text content.
--Implemented keyword-based matching logic to filter resumes based on required tech skills.
--Explored Streamlit for creating an interactive UI with preview buttons, file download options, and user-friendly layout.
--Understood the importance of handling secure credentials, git hygiene with .gitignore, and separating config from logic.
+- Learned how to connect and authenticate Gmail using the `imaplib` and `email` libraries securely via `.env` and `st.secrets`.  
+- Gained hands-on experience in parsing PDF resumes using **PyMuPDF** to extract clean and accurate text content.  
+- Implemented **keyword-based matching logic** to filter resumes based on required tech skills.  
+- Explored **Streamlit** to create an interactive UI with preview buttons, file download options, and a user-friendly layout.  
+- Understood the importance of handling **secure credentials**, practicing **git hygiene** with `.gitignore`, and **separating config from logic**.
 
 ## 📦 How to Run
 ```bash

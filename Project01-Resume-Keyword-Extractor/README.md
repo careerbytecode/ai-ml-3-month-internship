@@ -1,4 +1,4 @@
-# 🚀 Project Title: <PROJECT_TITLE>
+# 🚀 Project Title: <RESUME_KEYWORD_EXTRACTOR>
 
 ## 📌 Problem Statement
 Recruiters face challenges in manually screening large volumes of resumes.

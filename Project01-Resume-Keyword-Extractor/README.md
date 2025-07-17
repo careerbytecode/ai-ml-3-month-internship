@@ -23,6 +23,7 @@ An interactive Streamlit interface helps recruiters preview and shortlist top ca
 - **Optional**: Streamlit for app demo 🌐
 
 ### 📂 Project Structure
+<pre> ```bash resume-keyword-extractor/ ├── data/ │ ├── raw/ # Raw dataset for database model │ └── processed/ # Cleaned/parsed resumes (PDF to text) ├── outputs/ │ └── ranked_candidates.csv # Final ranked candidate results ├── src/ │ ├── extract_keywords.py # Extracts matching keywords from resumes │ ├── main.py # Scoring and screening logic │ ├── resume_parser.py # Extracts text, cleans and tokenizes │ ├── skills_keywords.py # Keywords used for matching │ └── fetch_resumes_email.py # Extracts PDFs from Gmail ├── app/ # (Optional) Streamlit app files ├── README.md # Project overview and instructions ├── sample.env.json # Sample configuration file └── requirements.txt # Python dependencies ``` </pre>
 📁 resume-keyword-extractor/
 ├── 📁 data/
 │   ├── 📁 raw/                     – Raw dataset for database model

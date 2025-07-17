@@ -43,7 +43,7 @@ An interactive Streamlit interface helps recruiters preview and shortlist top ca
  ``` </pre>
 
 ## 📈 Results & Screenshots
-[🎥 Demo Video 1](outputs/Demo Video/video1.mp4)  
+[🎥 Demo Video 1](Project01-Resume-Keyword-Extractor/outputs/Demo Video/Resume Keyword Extractor - Google Chrome 2025-07-17 13-24-58.mp4)
 [🎥 Demo Video 2](outputs/Demo Video/video2.mp4)
 
 

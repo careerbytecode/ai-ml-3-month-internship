@@ -43,6 +43,8 @@ An interactive Streamlit interface helps recruiters preview and shortlist top ca
  ``` </pre>
 
 ## 📈 Results & Screenshots
+[🎥 Demo Video 1](outputs/Demo Video/video1.mp4)  
+[🎥 Demo Video 2](outputs/Demo Video/video2.mp4)
 
 
 ## 🗒️ Learnings

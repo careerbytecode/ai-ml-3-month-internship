@@ -22,23 +22,24 @@ An interactive Streamlit interface helps recruiters preview and shortlist top ca
 - **File Formats**: `.pdf`, `.csv`, `.env`  
 - **Optional**: Streamlit for app demo 🌐
 
-## 📂 Project Structure
+### 📂 Project Structure
 📁 resume-keyword-extractor/
 ├── 📁 data/
-│ ├── 📁 raw/ # Raw dataset for database model
-│ └── 📁 processed/ # Resumes cleaned or parsed from PDFs
+│   ├── 📁 raw/                     – Raw dataset for database model
+│   └── 📁 processed/               – Cleaned/parsed resumes (PDF to text)
 ├── 📁 outputs/
-│ └── 📄 ranked_candidates.csv # Final ranked candidate results
-├── 📁 src/ # Source code files
-│ ├── 📄 extract_keywords.py # Extracts matching keywords from resume
-│ ├── 📄 main.py # Scoring and screening logic
-│ ├── 📄 resume_parser.py # Extracts text, cleans and tokenizes
-│ ├── 📄 skills_keywords.py # Keywords used for matching
-│ └── 📄 fetch_resumes_email.py # Extracts PDFs from Gmail
-├── 📁 app/ (optional) # Streamlit app (optional)
-├── 📄 README.md # Project overview and instructions
-├── 📄 sample.env.json # Sample config for contributors
-└── 📄 requirements.txt # Python dependencies
+│   └── 📄 ranked_candidates.csv    – Final ranked candidate results
+├── 📁 src/
+│   ├── 📄 extract_keywords.py      – Extracts matching keywords from resumes
+│   ├── 📄 main.py                  – Scoring and screening logic
+│   ├── 📄 resume_parser.py         – Extracts text, cleans and tokenizes
+│   ├── 📄 skills_keywords.py       – Keywords used for matching
+│   └── 📄 fetch_resumes_email.py   – Extracts PDFs from Gmail
+├── 📁 app/                         – (Optional) Streamlit app files
+├── 📄 README.md                    – Project overview and instructions
+├── 📄 sample.env.json              – Sample configuration file
+└── 📄 requirements.txt             – Python dependencies
+
 
 
 ## 📈 Results & Screenshots

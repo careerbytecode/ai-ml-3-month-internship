@@ -1,14 +1,41 @@
+# 🚀 Who Am I?
+I’m Dharshini, a builder at heart and a B.Tech graduate in Artificial Intelligence & Data Science who doesn’t just learn tech — I live and breathe it.
+
+- 🔍 I dig deep into problems, turning messy data into meaningful insights
+
+- 🛠️ I craft AI-powered solutions from scratch — from APIs to user-friendly UIs
+
+- 💬 I make machines understand language through NLP, OCR, and LLMs
+
+- 🔗 I connect the dots — from backend logic to frontend flow, from Python scripts to cloud-hosted apps
+
+## I'm not just preparing for the future of AI — I'm building it one repo at a time. 🔥
+
+### 🧠 Fun Fact
+I believe AI isn't just about automation – it's about **augmentation**.  
+I love building things that help humans make **smarter, faster, and kinder** decisions.
+
+---
+
+### 📬 Let's connect!
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/askdharshiniai/)  
+- 📬 Email: dharshini.k5003@gmail.com  
+- 🌐 [Portfolio](https://dharshini-portfolio.netlify.app/)
+
+---
+
 # 🚀 Project Title: YouTube Transcript Summarizer
 
 ## 📌 Problem Statement
 In the age of information overload, YouTube videos often contain valuable insights buried within long transcripts. However, users rarely have time to watch full videos or read lengthy transcripts. This project solves that by automatically extracting and summarizing the transcript of any YouTube video—giving users a concise version in seconds.
 
 ## 🎯 Objectives
--Fetch transcripts of any public YouTube video using its URL or ID.
--Clean the raw text to remove noise and irrelevant tokens.
--Summarize the transcript into a short, readable version (short, medium, or long).
--Provide an interactive UI for users to input links and get summaries instantly.
--Save and allow downloading of results.
+- Fetch transcripts of any public YouTube video using its URL or ID.
+- Clean the raw text to remove noise and irrelevant tokens.
+- Summarize the transcript into a short, readable version (short, medium, or long).
+- Provide an interactive UI for users to input links and get summaries instantly.
+- Save and allow downloading of results.
 
 ## 🧠 Tech Stack / Tools Used
 - Python 🐍
@@ -41,11 +68,11 @@ In the age of information overload, YouTube videos often contain valuable insigh
 ![alt text](image.png)
 
 ## 🗒️ Learnings
--How to use youtube-transcript-api effectively for public videos
--NLTK's scoring-based extractive summarization
--Streamlit for quick UI deployment
--Error handling for unavailable videos/transcripts
--Managing text preprocessing to enhance summarization
+- How to use youtube-transcript-api effectively for public videos
+- NLTK's scoring-based extractive summarization
+- Streamlit for quick UI deployment
+- Error handling for unavailable videos/transcripts
+- Managing text preprocessing to enhance summarization
 ## 📦 How to Run
 ```bash
 # Step 1: Clone the repo

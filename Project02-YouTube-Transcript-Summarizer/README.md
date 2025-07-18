@@ -17,7 +17,7 @@ I love building things that help humans make **smarter, faster, and kinder** dec
 
 ---
 
-### 📬 Let's connect!
+### 📬 Looking for Opportunities Let's connect!
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/askdharshiniai/)  
 - 📬 Email: dharshini.k5003@gmail.com  

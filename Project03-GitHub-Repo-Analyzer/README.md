@@ -54,23 +54,65 @@ github-repo-analyzer/
 - Enhanced skills in data visualization with Matplotlib.
 - Applied real-world use of API integration + GUI development.
 
-## 📦 How to Run
+##  How to Run
+### ✅ Step 1: Clone the repository
+
 ```bash
-# Step 1: Clone the repo
 git clone https://github.com/careerbytecode/ai-ml-3-month-internship.git
+```
 
-# Step 2: Navigate to this project folder
+>  **Tip:** Make sure to copy the exact GitHub repository URL from your browser’s address bar or the "Code" button on GitHub.
+
+---
+###  Step 2: Navigate to the project directory
+
+```bash
 cd ProjectXX-Your-Project-Title
+```
 
-# Step 3: Create virtual environment & activate
+Replace `ProjectXX-Your-Project-Title` with the actual name of the project folder you cloned.
+
+---
+###  Step 3: Create and activate a virtual environment
+
+```bash
 python -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
+```
 
-# Step 4: Install dependencies
+* **On macOS/Linux:**
+
+```bash
+source venv/bin/activate
+```
+
+* **On Windows:**
+
+```bash
+venv\Scripts\activate
+```
+
+---
+### 📦 Step 4: Install all required dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-# Step 5: Run your script or notebook
+---
+###  Step 5: Run the main Python script
+
+```bash
 python src/model.py
+```
+
+Or, if you're running the **Tkinter UI**:
+
+```bash
+python tk_ui.py
+```
+
+
+
 ```
 
 ## 📬 Submission Checklist

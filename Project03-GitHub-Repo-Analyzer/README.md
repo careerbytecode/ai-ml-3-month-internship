@@ -25,9 +25,9 @@ github-repo-analyzer/
 ├── data/                             # Stores project-related documentation or raw inputs
 │   └── data_note(github).pdf         # Instructions on using GitHub repository URLs
 │
-├── outputs/                          # Output visualizations or models
-│   ├── graphs/                       # Bar charts and other matplotlib visualizations
-│   └── working_model/                # Any processed or saved models/results
+├── outputs/                                 # Output visualizations or models
+│   ├── graphs/Barchart                      # Bar charts and other matplotlib visualizations
+│   └── working_model/ Step_1 and Step_2     # Any processed or saved models/results
 │
 ├── src/                              # Source logic for API and plotting
 │   ├── main.py                       # CLI-based analyzer entry point
@@ -39,14 +39,10 @@ github-repo-analyzer/
 │
 ├── README.md                         # Project overview and instructions
 └── requirements.txt                  # Python dependencies
-    
-
-
-    
 ```</pre>
 
 ## 📈 Results & Screenshots
-_You can include graphs, model metrics, UI screenshots, or console outputs here._
+
 
 ## 🗒️ Learnings
 _What did you learn while working on this project? Highlight techniques, challenges, or tricks you picked up._

@@ -1,0 +1,6 @@
+python-dotenv
+prettytable
+matplotlib
+requests
+
+

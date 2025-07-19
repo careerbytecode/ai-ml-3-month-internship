@@ -13,6 +13,7 @@ An interactive Streamlit interface helps recruiters preview and shortlist top ca
 - **Candidate Ranking**: Score and rank candidates based on the number of matched keywords.  
 - **Interactive UI**: Provide a Streamlit-based interface to view matches, scores, and resume previews.  
 - **Enable Shortlisting**: Help recruiters efficiently identify and preview top candidate resumes for further action.
+  
 
 
 ## 🧠 Tech Stack / Tools Used

@@ -42,6 +42,7 @@ github-repo-analyzer/
 ```</pre>
 
 ## 📈 Results & Screenshots
+<img src="Project03-GitHub-Repo-Analyzer/outputs/graphs/Barchart.png" alt="Demo UI" width="500"/>
 
 
 ## 🗒️ Learnings

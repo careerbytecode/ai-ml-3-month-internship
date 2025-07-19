@@ -42,7 +42,7 @@ github-repo-analyzer/
 ```</pre>
 
 ## 📈 Results & Screenshots
-![Demo Output](Project03-GitHub-Repo-Analyzer/outputs/graphs/Barchart.png)
+![Demo Output](outputs/graphs/Barchart.png)
 
 
 

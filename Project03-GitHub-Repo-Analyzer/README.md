@@ -42,7 +42,8 @@ github-repo-analyzer/
 ```</pre>
 
 ## 📈 Results & Screenshots
-<img src="C:\Users\kruth\OneDrive\Pictures\Screenshots\Barchart.png" alt="Demo UI" width="500"/>
+![Demo Output](Project03-GitHub-Repo-Analyzer/outputs/graphs/Barchart.png)
+
 
 
 ## 🗒️ Learnings

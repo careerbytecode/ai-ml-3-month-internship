@@ -1,36 +1,49 @@
-# 🚀 Project Title: <PROJECT_TITLE>
+# 🚀 Project Title: GitHub Repository Analyzer GUI (Using Tkinter & GitHub API)
 
 ## 📌 Problem Statement
-Briefly describe the problem you're trying to solve with this project. Clearly define the use case and the need for this AI/ML solution.
+Manually tracking and analyzing GitHub repository statistics such as stars, forks, watchers, and contributors can be tedious and error-prone. Developers, researchers, and tech enthusiasts often need a quick visual summary of a repository’s popularity and development activity without browsing GitHub repeatedly.
 
 ## 🎯 Objectives
-- Clearly outline the goals of this project
-- Mention expected outcomes or metrics if applicable
+- Create a user-friendly desktop GUI application to fetch and visualize GitHub repository statistics.
+- Provide real-time insights into key metrics like stars, forks, watchers, issues, contributors, and commits.
+- Display results in an intuitive bar chart using matplotlib.
+- Handle invalid inputs and API failures gracefully.
 
 ## 🧠 Tech Stack / Tools Used
-- Python 🐍
-- Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, etc.
-- Jupyter Notebook / VS Code
-- (Optional) Streamlit / Flask for app demo
-- (Optional) LangChain / OpenAI for AI Agents
+
+- **GUI Framework** :	Tkinter
+- **API Interaction	Request** :(GitHub REST API)
+- **Visualization**	:Matplotlib
+- **Language**:	Python 3.x
+- **Version Control**:	Git, GitHub
+- **OS Compatibility**	:Windows, Linux, macOS
 
 ## 📂 Project Structure
-```
-📁 data/
-    📁 raw/
-    📁 processed/
-📁 notebooks/
-📁 outputs/
-    📁 graphs/
-    📄 model.pkl
-    📄 results.csv
-📁 src/
-    📄 data_loader.py
-    📄 model.py
-    📄 utils.py
-📁 app/ (optional)
-📄 README.md
-```
+<pre>```
+github-repo-analyzer/
+│
+├── data/                             # Stores project-related documentation or raw inputs
+│   └── data_note(github).pdf         # Instructions on using GitHub repository URLs
+│
+├── outputs/                          # Output visualizations or models
+│   ├── graphs/                       # Bar charts and other matplotlib visualizations
+│   └── working_model/                # Any processed or saved models/results
+│
+├── src/                              # Source logic for API and plotting
+│   ├── main.py                       # CLI-based analyzer entry point
+│   ├── visualizer.py                 # Code for visualizing repository stats
+│   └── github_api.py                 # GitHub API interaction logic
+│
+├── app/                              # GUI interface for desktop use
+│   └── tk_ui.py                      # Tkinter-based app window for input and visualization
+│
+├── README.md                         # Project overview and instructions
+└── requirements.txt                  # Python dependencies
+    
+
+
+    
+```</pre>
 
 ## 📈 Results & Screenshots
 _You can include graphs, model metrics, UI screenshots, or console outputs here._

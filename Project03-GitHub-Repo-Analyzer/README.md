@@ -46,7 +46,12 @@ github-repo-analyzer/
 
 
 ## 🗒️ Learnings
-_What did you learn while working on this project? Highlight techniques, challenges, or tricks you picked up._
+- Learned how to interact with GitHub's public REST API using Python.
+- Understood how to build responsive desktop GUI applications using Tkinter.
+- Practiced modular Python programming by splitting logic into different functional files.
+- Learned to handle edge cases and API rate limits with error handling.
+- Enhanced skills in data visualization with Matplotlib.
+- Applied real-world use of API integration + GUI development.
 
 ## 📦 How to Run
 ```bash
